@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: api-eventmanager
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/eventosdb
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
